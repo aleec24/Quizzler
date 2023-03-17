@@ -40,7 +40,7 @@
 		0E380672298438460042ADE2 = {
 			isa = PBXGroup;
 			children = (
-				0E38067D298438460042ADE2 /* Startup */,
+				0E38067D298438460042ADE2 /* Quizzler */,
 				0E38067C298438460042ADE2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0E38067D298438460042ADE2 /* Startup */ = {
+		0E38067D298438460042ADE2 /* Quizzler */ = {
 			isa = PBXGroup;
 			children = (
 				0E38067E298438460042ADE2 /* AppDelegate.swift */,
@@ -64,7 +64,7 @@
 				0E380689298438480042ADE2 /* LaunchScreen.storyboard */,
 				0E38068C298438480042ADE2 /* Info.plist */,
 			);
-			path = Startup;
+			path = Quizzler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0E380676298438460042ADE2 /* Build configuration list for PBXProject "Startup" */;
+			buildConfigurationList = 0E380676298438460042ADE2 /* Build configuration list for PBXProject "Quizzler" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E380676298438460042ADE2 /* Build configuration list for PBXProject "Startup" */ = {
+		0E380676298438460042ADE2 /* Build configuration list for PBXProject "Quizzler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E38068D298438480042ADE2 /* Debug */,
