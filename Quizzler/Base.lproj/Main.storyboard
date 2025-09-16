@@ -16,17 +16,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="E5k-8c-mj0">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                            </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="amH-Uo-q8u">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiI-m0-xNn">
+                                <rect key="frame" x="79" y="584" width="234" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="True"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYR-dz-dgH">
+                                <rect key="frame" x="79" y="676" width="234" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="False"/>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AMT-f3-50D">
+                                <rect key="frame" x="121" y="782" width="150" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwG-8F-dsQ">
+                                <rect key="frame" x="86" y="283" width="166" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="amH-Uo-q8u" secondAttribute="trailing" id="CfH-Cr-vxF"/>
-                            <constraint firstItem="amH-Uo-q8u" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="drc-vG-QAM"/>
-                            <constraint firstItem="amH-Uo-q8u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gtl-Ng-YD4"/>
-                            <constraint firstAttribute="bottom" secondItem="amH-Uo-q8u" secondAttribute="bottom" id="sk4-Hi-HMA"/>
+                            <constraint firstAttribute="bottom" secondItem="amH-Uo-q8u" secondAttribute="bottom" id="3h1-xS-TAB"/>
+                            <constraint firstItem="amH-Uo-q8u" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8TT-Si-2MU"/>
+                            <constraint firstItem="E5k-8c-mj0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XUz-Hg-b7E"/>
+                            <constraint firstItem="E5k-8c-mj0" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cdP-eV-4Ew"/>
+                            <constraint firstItem="E5k-8c-mj0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="j65-A7-7DT"/>
+                            <constraint firstItem="E5k-8c-mj0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jdE-hD-8wG"/>
+                            <constraint firstItem="amH-Uo-q8u" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="knF-Zj-YLs"/>
+                            <constraint firstItem="amH-Uo-q8u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lgn-Lr-FIe"/>
                         </constraints>
                     </view>
                 </viewController>
